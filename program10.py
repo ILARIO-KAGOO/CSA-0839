@@ -2,9 +2,9 @@ import string
 str = input("Enter string: ")
 str2 = ""
 
-str1 = string.ascii_letters
+str1 = string.ascii_lowercase
 
-for i,v in enumerate(str):
+for v in str:
   c = str.count(v)
   s = str1.find(v)
   str2 += str1[s+c]
