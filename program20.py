@@ -1,4 +1,4 @@
-str1 = inpu
+str1 = input("Enter First string: ")
 str2 = input("Enter second string: ")
 
 str1_i = max(str1,str2)
