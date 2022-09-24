@@ -24,13 +24,23 @@
 
 [program6.py](program6.py) - largest area between 2 points
 
+![program6](Assets/program6.png)
+
 [program7.py](program7.py) - A string s is lexicographically sorted combination is printed
+
+![program7](Assets/program7.png)
 
 [program8.py](program8.py) - valid integers and decimals
 
+![program8](Assets/program8.png)
+
 [program9.py](program9.py) - cruise with guests entering and leaving count at time T
 
+![program9](Assets/program9.png)
+
 [program10.py](program10.py) - letters replaced by moving n steps forward where n is the repetition 
+
+![program10](Assets/program10.png)
 
 ---
 
@@ -38,23 +48,43 @@
 
 [program11.py](program11.py) - staircase program
 
+![program11](Assets/program11.png)
+
 [program12.py](program12.py) - Leap year or not
+
+![program12](Assets/program12.png)
 
 [program13.py](program13.py) - maximum no of words found in sentences
 
+![program13](Assets/program13.png)
+
 [program14.py](program14.py) - merge 2 sorted list
+
+![program14](Assets/program14.png)
 
 [program15.py](program15.py) - basic calculator
 
+![program15](Assets/program15.png)
+
 [program16.py](program16.py) - dialer program
+
+![program16](Assets/program16.png)
 
 [program17.py](program17.py) - pattern with parantheses
 
+![program17](Assets/program17.png)
+
 [program18.py](program18.py) - regular expression matching with * and .
+
+![program18](Assets/program18.png)
 
 [program19.py](program19.py) - divding month and year into season
 
+![program19](Assets/program19.png)
+
 [program20.py](program20.py) - to remove words that are common in 2 strings
+
+![program20](Assets/program20.png)
 
 ---
 

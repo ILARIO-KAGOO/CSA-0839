@@ -1,22 +1,15 @@
-def numSquareSum(n):
-    squareSum = 0;
-    while(n):
-        squareSum += (n % 10) * (n % 10);
-        n = int(n / 10);
-    return squareSum;
-    
-def isHappyNumber(n):
-    st=set()
-    while (1):
-        n = numSquareSum(n)
-        if (n == 1):
-            return True
-        if n not in st:
-            return False
-        st.insert(n)
-
-s = int(input("Enter number: "))
-if isHappyNumber(s):
-  print(f"{s} is a happy number")
-else:
-  print(f"{s} is not a happy number")
+def isHappyNumber(num):  
+    rem = sum = 0;  
+    while(num > 0):  
+        rem = num%10;  
+        sum = sum + (rem*rem);  
+        num = num//10;  
+    return sum;  
+num = int(input("Enter number: "));  
+result = num;  
+while(result != 1 and result != 4):  
+    result = isHappyNumber(result);  
+if(result == 1):  
+    print(f"{num} is a happy number");  
+elif(result == 4):  
+    print(f"{num} is not a happy number");     

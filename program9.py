@@ -21,4 +21,4 @@ while True:
 for i in range(0,n):
   sum+= e[i]-l[i]
   maxi = max(sum,maxi)
-print(maxi)
+print(f"no of guests: {maxi}")
