@@ -4,13 +4,23 @@
 
 [program1.py](program1.py) - Checking 2 strings for isomorphic
 
+![program1](Assets/program1.png)
+
 [program2.py](program2.py) - Sum of square of both odd and even numbers
+
+![program2](Assets/program2.png)
 
 [program3.py](program3.py) - Checking for happy number
 
+![program3](Assets/program3.png)
+
 [program4.py](program4.py) - Checking for palindrome
 
+![program4](Assets/program4.png)
+
 [program5.py](program5.py) - prices of day old and new loaves
+
+![program5](Assets/program5.png)
 
 [program6.py](program6.py) - largest area between 2 points
 
