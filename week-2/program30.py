@@ -11,5 +11,7 @@ def editDistance(str1, str2, m, n):
   return 1 + min(editDistance(str1, str2, m, n-1),editDistance(str1, str2, m-1, n),    editDistance(str1, str2, m-1, n-1))
 
 
-str = input("first string: ")
-str = input("second string: ")
+str1 = input("first string: ")
+str2 = input("second string: ")
+
+print(editDistance(str1,str2,len(str1),len(str2)))
