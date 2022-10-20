@@ -12,19 +12,4 @@ print("Enter element for l1: ")
 s1 = input().split()
 print("Enter element for l2: ")
 s2 = input().split()
-# while True:
-#   s = input()
-#   if s == '*':
-#     break
-#   else:
-#     l.append(int(s))
-
-# print("Enter element for l2: \n")
-# while True:
-#   s = input()
-#   if s == '*':
-#     break
-#   else:
-      # s2.append(int(s))
-
 print(shuffle(s1,s2))

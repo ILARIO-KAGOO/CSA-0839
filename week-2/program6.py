@@ -1,11 +1,4 @@
-a = []
-print("Enter the number (enter * to quit):")
-while True:
-  s = input()
-  if s =='*':
-    break
-  else:
-    a.append(int(s))
+a = input().split()
 left = 0
 right = len(a)-1
 area = 0

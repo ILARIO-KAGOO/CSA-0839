@@ -1,13 +1,5 @@
 
-price =[]
-
-print("Enter price(* to quit): ")
-while True:
-  s = input()
-  if s =='*':
-    break
-  else:
-    price.append(int(s))
+price =list(map(int,input().split()))
 
 n = len(price)
 p = [0]*n

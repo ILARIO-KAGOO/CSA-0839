@@ -13,8 +13,5 @@ def isIsomorphic(str1, str2):
     else:
         return False
 
-print(isIsomorphic("egg", "add"));         
-print(isIsomorphic("foo", "bar"));      
-print(isIsomorphic("paper", "title"));   
-print(isIsomorphic("fry", "sky"));
-print(isIsomorphic("apples", "apple"));
+s1 , s2 = map(str,input().split())
+print(isIsomorphic(s1,s2))       
