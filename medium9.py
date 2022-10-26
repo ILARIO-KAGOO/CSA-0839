@@ -29,8 +29,7 @@ if len(l) == 1:
   exit()
 
 
-for i in range(len(l)-1):
-  f=product(l[i])
+f = product(l[0],l[1])
 for i in f: ans.append("".join(g for g in i))
 
 print(ans)
